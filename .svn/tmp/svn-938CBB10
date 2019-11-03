@@ -4,6 +4,12 @@
 
 > AdminAir后台管理系统通用版1.0
 
+该项目基于vue+ElementUi构建，页面基本包含常规操作的增删改查页面、权限管理和登录页面，
+主页展示类包含常规组件有：头部名称与数量展示组件、文章列表top显示组件、进度条组件、
+表格展示组件、时间线组件、日历组件，图表类组件：折线图、柱状图、饼图、玫瑰图等；
+数据可视化页面目前是H5模式，组件真正构建中，将在2.0版本更新大屏页面相关组件。
+
+
 ![主页截图][1]
 
 ### 产品依赖于:
@@ -100,6 +106,14 @@ adminAirELUI
 
 ![添加页面][11]
 
+![角色页面][13]
+
+![角色页面][14]
+
+#### 大屏页面模板
+![大屏页面][12]
+
+
   [1]: http://tc.lihail.cn/adminAir.png
   [2]: https://cn.vuejs.org/
   [3]: https://cli.vuejs.org/zh/
@@ -111,3 +125,8 @@ adminAirELUI
   [9]: http://tc.lihail.cn/adminLogin.png
   [10]: http://tc.lihail.cn/adminnewList.png
   [11]: http://tc.lihail.cn/adminuser.png
+  [12]: http://tc.lihail.cn/adminbig.png
+  [13]: http://tc.lihail.cn/adminjs.png
+  [14]: http://tc.lihail.cn/admin123.png
+  
+  
