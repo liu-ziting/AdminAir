@@ -1,0 +1,459 @@
+.main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-top: 1%;
+}
+.main section {
+	width: 100%;
+	height: 86%;
+	position: absolute;
+}
+.main section > div{
+	position: absolute;
+	float: left;
+	height: 100%;
+}
+.main .title{
+	font-size: 1vw;
+	height: 3vh;
+	color: #c4d0fd;
+}
+.main .title span{
+	float: left;
+}
+.main .title .leftTitle{
+	width: 33.3%;
+	text-align: left;
+	padding-left: 5%;
+	font-size: 0.7vw;
+	line-height: 3vh;
+	cursor: pointer;
+}
+.main .title .ctitle{
+	width: 33.3%;
+	text-align: center;
+}
+.main .title .rightTitle{
+	width: 33.3%;
+	text-align: right;
+	padding-right: 5%;
+	font-size: 0.7vw;
+	line-height: 3vh;
+	cursor: pointer;
+}
+.main .title .active{
+	color: #fdde00;
+}
+/*头部标题*/
+.main .top{
+	background: url(../img/topbg.png) no-repeat;
+	width: 100%;
+	height: 8.5%;
+   	background-size:100% 100%;
+}
+.main .top time{
+	font-size: 0.9vw;
+    line-height: 4.5vh;
+    margin-left: 7.5%;
+    color: #79e1fe;
+}
+/*左侧*/
+.main .left{
+	width: 25%;
+	padding:0 1%;
+}
+.main .left .one{
+	width: 100%;
+	height: 43%;
+	background: url(../img/kbg1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.main .left .one .ctitle{
+	width:100%;
+	text-align: center;
+}
+.main .left .one h2{
+	color: #c4d0fd;
+	font-size: 1.6vw;
+	float: left;
+	margin-top: 5vh;
+	width: 6vw;
+	text-align: center;
+}
+.main .left .one h3{
+	color: #8cbded;
+	font-size: 1vw;
+	float: left;
+	width: 11vw;
+}
+/*myChart*/
+#myChart{
+	width: 8vw;
+	height: 13vh;
+	margin: 0 auto;
+	float: left;
+	margin-left: 3vw;
+	margin-top: 2vh;
+}
+
+.main .left .one ul{
+	width: 88%;
+	margin: 0 auto;
+	margin-top: 1vh;
+}
+.main .left .one ul li{
+	width: 100%;
+	height: 7.5vh;
+	background: rgba(18,33,81,0.7);
+	float: left;
+	margin-bottom: 1vh;
+	padding: 0.4vw;
+	box-sizing: border-box;
+}
+.main .left .one ul li img{
+	display: block;
+	width: 6vh;
+	float: left;
+}
+.main .left .one ul li p{
+	width: 7vw;
+	color: #05d7fd;
+	font-size: 1.2vw;
+	float: left;
+	text-align: center;
+	margin-top: 0.2vh;
+	border-right: 1px solid #06324b;
+}
+.main .left .one ul li p span{
+	font-size: 0.8vw;
+	color: #1586ae;
+	display: block;
+}
+.main .left .one ul li .leftBox{
+	float: left;
+	padding-left: 1vw;
+	width: 9vw;
+}
+.main .left .one ul li .leftBox i{
+	font-size: 0.5vw;
+	color: #115b80;
+	font-style: normal;
+	width: 100%;
+	display: block;
+	margin-top: -0.5vh;
+}
+.main .left .one ul li .leftBox b{
+	font-size: 0.8vw;
+	color: #09ebed;
+	width: 100%;
+	display: block;
+}
+.main .left .one ul li .leftBox em{
+	font-size: 0.5vw;
+	color: #1f99ca;
+	width: 100%;
+	font-style: normal;
+	display: block;
+}
+.main .left .one ul li .leftBox .bar{
+	width: 100%;
+	height: 0.5vh;
+	background-color: #043958;
+	position: relative;
+}
+.main .left .one ul li .leftBox .bar span{
+	position: absolute;
+	height: 0.5vh;
+	background-color: #118d69;
+}
+.main .left .two{
+	width: 100%;
+	height: 58%;
+	margin-top: 2%;
+	background: url(../img/kbg2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.main .left .two ul {
+	width: 100%;
+	margin-top: 1vh;
+	margin-left: 2%;
+}
+.main .left .two ul li{
+	width: 33%;
+	float: left;
+	margin: 0 8%;
+	margin-bottom: 1vh;
+}
+.main .left .two ul li .imgBg{
+	background: url(../img/imgk.png) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 14vh;
+	margin-bottom: 0.4vh;
+}
+.main .left .two ul li .imgBg img{
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	height: 12vh;
+	padding-top: 1vh;
+	object-fit:cover;
+}
+.main .left .two ul li p{
+	font-size: 0.5vw;
+	color: #1f99ca;
+	margin-bottom: 0.2vh;
+	overflow: hidden;
+}
+.main .left .two ul li p img{
+	display: block;
+	float: left;
+	margin-right: 0.3vh;
+}
+/*中间*/
+.main .middle{
+	width: 50%;
+	left: 25%;
+}
+.main .middle .one{
+	width: 100%;
+	height: 63%;
+}
+.main .middle .one img{
+	width:65%;
+	display: block;
+	margin: 0 auto;
+}
+.main .middle .two{
+	width: 100%;
+	height: 37%;
+}
+.main .middle .two h1{
+	font-size: 1vw;
+	color: #c4d0fd;
+	height: 7vh;
+	line-height: 7vh;
+}
+.main .middle .two img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+/*右侧*/
+.main .right{
+	width: 25%;
+	left: 75%;
+	padding:0 1%;
+}
+.main .right .one{
+	width: 100%;
+	height: 50%;
+	background: url(../img/kbg3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.main .right .one .title .leftTitle{
+	padding-left: 3%;
+}
+.main .right .one .title .rightTitle{
+	padding-right: 3%;
+}
+.main .right .one .visit{
+	width: 100%;
+	height: 90%;
+	position: relative;
+}
+.main .right .one .visit img{
+	width: 90%;
+	margin-left: 5%;
+	position: absolute;
+	bottom: 0;
+}
+.main .right .one .visit p{
+	width: 100%;
+	text-align: center;
+	font-size: 0.8vw;
+	color: #c4d0fd;
+	position: absolute;
+	bottom: 65%;
+}
+.main .right .one .visit .num{
+	bottom: 55%;
+	color: #1F99CA;
+	font-size: 1.5vw;
+}
+.main .right .one .visit .circular{
+	display: block;
+	width: 4vw;
+	height: 4vw;
+	background: url(../img/yuan.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	cursor: pointer;
+}
+.main .right .one .visit .circular i{
+	color: #C4D0FD;
+	font-style: normal;
+	font-size: 0.6vw;
+	text-align: center;
+	padding-top: 2vh;
+	display: block;
+	width: 68%;
+	margin: 0 auto;
+	text-align: center;
+}
+.main .right .one .visit .circular em{
+	font-size: 1vw;
+	color: #d6cb1d;
+	display: block;
+	font-style: normal;
+	text-align: center;
+	font-weight: bold;
+}
+/*控制气泡位置*/
+.main .right .one .visit .col1{
+	bottom: 20%;
+	left: 5%;
+}
+.main .right .one .visit .col2{
+	bottom: 50%;
+	left: 13%;
+}
+.main .right .one .visit .col3{
+	bottom: 75%;
+	left: 40%;
+}
+.main .right .one .visit .col4{
+	bottom: 50%;
+	right: 13%;
+}
+.main .right .one .visit .col5{
+	bottom: 20%;
+	right: 5%;
+}
+/*控制气泡上下运动时间*/
+.updown1{
+    -webkit-animation: bounce-down 1.5s linear infinite;
+    animation: bounce-down 1.5s linear infinite;
+}
+.updown2{
+    -webkit-animation: bounce-down 2s linear infinite;
+    animation: bounce-down 2s linear infinite;
+}
+.updown3{
+    -webkit-animation: bounce-down 1.8s linear infinite;
+    animation: bounce-down 1.8s linear infinite;
+}
+.updown4{
+    -webkit-animation: bounce-down 1.5s linear infinite;
+    animation: bounce-down 1.5s linear infinite;
+}
+.updown5{
+    -webkit-animation: bounce-down 2.2s linear infinite;
+    animation: bounce-down 2.2s linear infinite;
+}
+.main .right .two{
+	width: 100%;
+	height: 51%;
+	margin-top: 2%;
+	background: url(../img/kbg4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.main .right .two .table{
+	width: 100%;
+	color: #2492ff;
+	padding: 3%;
+}
+.main .right .two .table .header{
+	background: url(../img/tbg.png) no-repeat;
+	background-size: 100% 100%;
+	height: 5vh;
+	line-height: 5vh;
+	margin-bottom: 1vh;
+}
+.main .right .two .table .header span{
+	font-size: 0.8vw;
+}
+.main .right .two .table ul li{
+	height: 4.6vh;
+	line-height: 4.6vh;
+	width: 100%;
+}
+.main .right .two .table ul li:nth-child(odd){
+	background-color: #07174b;
+}
+.main .right .two .table ul li span{
+	display: block;
+	float: left;
+	width: 33.3%;
+	font-size: 0.8vw;
+	text-align: center;
+}
+
+/*适应不同分辨率*/
+@media (max-width:1366px ) {
+    .main .top time{
+	    margin-left: 9%;
+	}
+	.main .left .two ul{
+		margin-left: 0;
+	}
+	.main .left .two ul li{
+		width: 38%;
+		margin: 0 6%;
+		margin-bottom: 1vh;
+	}
+	.main .right .one .visit p{
+		bottom: 56%;
+	}
+	.main .right .one .visit .num{
+		bottom: 47%;
+	}
+	.main .right .one .visit .col3{
+		bottom: 69%;
+	}
+}
+@media (min-width:1920px ) {
+    .main .top time{
+	    margin-left: 8%;
+	}
+	.main .left .two ul{
+		margin-left: 1%;
+		margin-top: 2vh;
+	}
+	.main .left .two ul li{
+		width: 35%;
+		margin: 0 7%;
+		margin-bottom: 2vh;
+	}
+	.main .right .one .visit img{
+		margin-bottom: 2vh;
+	}
+	.main .right .one .visit .col3{
+		bottom: 72%;
+	}
+}
+@-webkit-keyframes bounce-down {
+    25% {
+        -webkit-transform: translateY(-10px);
+    }
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    75% {
+        -webkit-transform: translateY(10px);
+    }
+}
+@keyframes bounce-down {
+    25% {
+        transform: translateY(-10px);
+    }
+    50%, 100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+}
+
+ 

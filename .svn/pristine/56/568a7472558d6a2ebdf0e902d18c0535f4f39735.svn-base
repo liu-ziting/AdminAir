@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=7,IE=8,IE=9,IE=10"/>
+		<meta name="renderer" content="webkit|ie-comp|ie-stand"/>
+		<title>浙江省行政中心安防平台</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/index.css" />
+	</head>
+	<body>
+		<div class="main">
+			<!--头部标题-->
+			<div class="top font">
+				<time>2019-03-19 14:01:15 星期二</time>
+			</div>
+			<section>
+				<!--主体左侧-->
+				<div class="left">
+					<div class="one">
+						<p class="title">
+							<span class="ctitle">各种设备</span>
+						</p>
+						<div id="myChart"></div>
+						<h2 class="font">35674<br><h3>设备总数(个)</h3></h2>
+						<div class="clear"></div>
+						<ul>
+							<li>
+								<img src="../img/y1.png" />
+								<p class="num">
+									98%<br />
+									<span>监控在线率</span>
+								</p>
+								<div class="leftBox">
+									<i>正常点数</i>
+									<b>2801</b>
+									<div class="bar">
+										<!--进度条百分比-->
+										<span style="width: 70%;"></span>
+									</div>
+									<em>总点数 2801</em>
+								</div>
+							</li>
+							<li>
+								<img src="../img/y2.png" />
+								<p class="num">
+									98%<br />
+									<span>门禁在线率</span>
+								</p>
+								<div class="leftBox">
+									<i>正常点数</i>
+									<b>2801</b>
+									<div class="bar">
+										<!--进度条百分比-->
+										<span style="width: 60%;"></span>
+									</div>
+									<em>总点数 2801</em>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="two">
+						<p class="title">
+							<span class="leftTitle active">人员出入</span>
+							<span class="ctitle">出入口实况</span>
+							<span class="rightTitle">车辆出入</span>
+						</p>
+						<ul>
+							<li>
+								<div class="imgBg">
+									<img src="../img/tx.png" />
+								</div>
+								<p><img src="../img/l1.png" />蔡徐坤</p>
+								<p><img src="../img/l2.png" />2019-03-21 16:34</p>
+								<p><img src="../img/l3.png" />西侧大门出去</p>
+							</li>
+							<li>
+								<div class="imgBg">
+									<img src="../img/tx.png" />
+								</div>
+								<p><img src="../img/l1.png" />蔡徐坤</p>
+								<p><img src="../img/l2.png" />2019-03-21 16:34</p>
+								<p><img src="../img/l3.png" />西侧大门出去</p>
+							</li>
+							<li>
+								<div class="imgBg">
+									<img src="../img/tx.png" />
+								</div>
+								<p><img src="../img/l1.png" />蔡徐坤</p>
+								<p><img src="../img/l2.png" />2019-03-21 16:34</p>
+								<p><img src="../img/l3.png" />西侧大门出去</p>
+							</li>
+							<li>
+								<div class="imgBg">
+									<img src="../img/tx.png" />
+								</div>
+								<p><img src="../img/l1.png" />蔡徐坤</p>
+								<p><img src="../img/l2.png" />2019-03-21 16:34</p>
+								<p><img src="../img/l3.png" />西侧大门出去</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--主体中间-->
+				<div class="middle">
+					<div class="one">
+						<img src="../img/map.png" />
+					</div>
+					<div class="two">
+						<h1>告警数量</h1>
+						<img src="../img/e1.png" />
+					</div>
+				</div>
+				<!--主体右侧-->
+				<div class="right">
+					<div class="one">
+						<p class="title">
+							<span class="leftTitle active">人员访问次数</span>
+							<span class="ctitle">访问总数</span>
+							<span class="rightTitle">车辆访问次数</span>
+						</p>
+						<div class="visit">
+							<img src="../img/rybg.png" />
+							<p>访问人员总数</p>
+							<p class="num">6000+</p>
+							<span class="circular col1 updown1">
+								<i>省政府办公厅</i>
+								<em>158</em>
+							</span>
+							<span class="circular col2 updown2">
+								<i>省委改革办</i>
+								<em>84</em>
+							</span>
+							<span class="circular col3 updown3">
+								<i>省信访局</i>
+								<em>528</em>
+							</span>
+							<span class="circular col4 updown4">
+								<i>省民政厅</i>
+								<em>12</em>
+							</span>
+							<span class="circular col5 updown5">
+								<i>省人力社保厅</i>
+								<em>236</em>
+							</span>
+						</div>
+					</div>
+					<div class="two">
+						<p class="title">
+							<span class="leftTitle active">人员出入</span>
+							<span class="ctitle">出入口统计</span>
+							<span class="rightTitle">车辆出入</span>
+						</p>
+						<div class="table">
+							<ul>
+								<li class="header">
+									<span>出入口名称</span>
+									<span>出去数量</span>
+									<span>进口数量</span>
+								</li>
+								<li>
+									<span title="我这个属性只要鼠标停留在上面就会显示出来">正面东侧</span>
+									<span>24</span>
+									<span>24</span>
+								</li>
+								<li>
+									<span>东面左侧</span>
+									<span>24</span>
+									<span>24</span>
+								</li>
+								<li>
+									<span>大门入口</span>
+									<span>24</span>
+									<span>24</span>
+								</li>
+								<li>
+									<span>校门左侧</span>
+									<span>24</span>
+									<span>24</span>
+								</li>
+								<li>
+									<span>接待室正门</span>
+									<span>24</span>
+									<span>24</span>
+								</li>
+								<li>
+									<span>正面东侧</span>
+									<span>24</span>
+									<span>24</span>
+								</li>
+								<li>
+									<span>正面东侧</span>
+									<span>24</span>
+									<span>24</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="../js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="../js/echarts.js" ></script>
+		<script type="text/javascript" src="../js/echarts-liquidfill.js" ></script>
+		<script>
+			//echarts图表-设备数量
+			var myChart = echarts.init(document.getElementById('myChart'));
+			var value = 0.6;//水柱百分比
+			var data = [];
+			//几层水波-3
+			data.push(value);
+			data.push(value);
+			data.push(value);
+			var option = {
+			    series: [{
+			        type: 'liquidFill',
+			        radius: '90%',
+			        data: data,
+			        outline: {
+            			borderDistance: 4,
+			            itemStyle: {
+			                borderWidth: 1,
+			                borderColor: '#07fffb',
+			            }
+       				},
+			        backgroundStyle: {
+			            color: 'rgb(255,0,255,0.01)',
+			        },
+			        label: {
+			            normal: {
+			                formatter: ''
+			            }
+			        }
+			    }]
+			}
+			myChart.setOption(option);
+		</script>
+	</body>
+</html>

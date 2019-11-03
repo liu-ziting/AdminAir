@@ -1,0 +1,44 @@
+html,body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,li,fieldset,legend,input,textarea,select,div,nav,
+header,footer,span{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size:1em;
+} 
+body{
+	margin: 0;
+	padding: 0;
+    font-family: "微软雅黑";
+    background: url(../img/bg.png);
+	background-repeat: no-repeat;
+   	background-size:cover;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+	cursor: pointer;
+}
+.clear{
+	clear: both;
+}
+/*数字字体，添加.font class*/
+@font-face{
+    font-family: 'digifacewide';
+    src: url('../fonts/Digiface Regular.ttf');
+}
+.font{
+	font-family: 'digifacewide';
+}
