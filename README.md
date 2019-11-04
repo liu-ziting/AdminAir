@@ -32,7 +32,7 @@
 ## 项目运行
 
     # 克隆到本地
-    git https://git.dev.tencent.com/liuziting/AdminAirElUI.git
+    git https://github.com/liu-ziting/AdminAir.git
     svn svn+ssh://svn@svn.dev.tencent.com/liuziting/AdminAirElUI
     
     # 进入文件夹
