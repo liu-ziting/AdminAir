@@ -9,6 +9,10 @@
 表格展示组件、时间线组件、日历组件，图表类组件：折线图、柱状图、饼图、玫瑰图等；
 数据可视化页面目前是H5模式，组件真正构建中，将在2.0版本更新大屏页面相关组件。
 
+
+ - [Demo演示点这里][15]
+
+
 ![主页截图][1]
 
 ### 产品依赖于:
@@ -127,5 +131,5 @@ adminAirELUI
   [12]: http://tc.lihail.cn/adminbig.png
   [13]: http://tc.lihail.cn/adminjs.png
   [14]: http://tc.lihail.cn/admin123.png
-  
+  [15]: http://adminair.zhangs.ink/adminAirDemo/index.html#/Login
   
