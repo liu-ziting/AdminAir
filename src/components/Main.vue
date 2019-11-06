@@ -47,6 +47,9 @@
 						<el-tooltip class="item" effect="dark" content="数据可视化大屏页面" placement="bottom">
 							<el-menu-item @click="bigScreen"  class="el-icon-data-line"></el-menu-item>
 						</el-tooltip>
+						<el-tooltip class="item" effect="dark" content="锁屏" placement="bottom">
+						<el-menu-item @click="openLockscreen"  class="el-icon-lock"></el-menu-item>
+						</el-tooltip>
 						<el-menu-item @click="openNews" style="float: right;" class="el-icon-bell"> 通知公告</el-menu-item>
 					</el-menu>
 				</el-header>
@@ -62,16 +65,21 @@
 					<transition name="el-fade-in">
 					    <router-view v-show="true" class="transition-box"></router-view>
 					</transition>
-
-					
 				</el-main>
 				<el-footer>技术支持：彼岸天工作室</el-footer>
 			</el-container>
 		</el-container>
+		<transition name="el-zoom-in-center">
+		       <lock-screen v-show="true" v-if="type" @changeComponent="lockscreen" ></lock-screen>
+		</transition>
 	</div>
 </template>
 
 <script>
+	
+	import LockScreen from './HomeAssembly/LockScreen.vue' //锁屏组件
+	
+	
 	export default {
 		data() {
 			return {
@@ -124,6 +132,7 @@
 					}]
 				}],
 				width: 12.5,
+				type:false,
 				logo: '后台管理系统',
 				indexBreadcrumbs: this.$route.path,
 				isCollapse: false,
@@ -134,7 +143,7 @@
 			};
 		},
 		components: {
-			// breadcrumbNav
+			LockScreen
 		},
 		watch: {
 			$route() {
@@ -229,6 +238,20 @@
 				  message: 'adminAir后台管理系统1.0开发进行中'
 				});
 			},
+			openLockscreen(){
+				this.type = true;
+				// 设置为锁屏
+				sessionStorage.setItem("LockscreenType",true);
+			},
+			lockscreen(params) {
+				// 密码正确进行解锁
+				if(params == '123456'){
+					this.type = false;
+					sessionStorage.setItem("LockscreenType",false);
+				}else{
+					this.$message.error('密码输入错误请重新输入！');
+				}
+			},
 			leftListhide() {
 				if (this.isCollapse == true) {
 					this.isCollapse = false;
@@ -247,7 +270,15 @@
 			},
 		},
 		created() {
-			this.addDate()
+			var _this = this;
+			this.addDate();
+			// 判断锁屏状态
+			if(sessionStorage.getItem("LockscreenType") == 'true'){
+				_this.type = true
+			}else{
+				_this.type = false
+			}
+			
 		}
 	}
 </script>
