@@ -28,6 +28,7 @@
  - [Echarts][6]
  - [Core-js][7]
  - [Vue CountTo][8]
+ - [Nprogress][16]
 
 ## 项目运行
 
@@ -138,4 +139,5 @@ adminAirELUI
   [13]: http://tc.lihail.cn/adminjs.png
   [14]: http://tc.lihail.cn/admin123.png
   [15]: http://adminair.zhangs.ink/adminAirDemo/index.html#/Login
+  [16]: https://github.com/rstacruz/nprogress#readme
   
