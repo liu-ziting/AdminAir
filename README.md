@@ -138,6 +138,6 @@ adminAirELUI
   [12]: http://tc.lihail.cn/adminbig.png
   [13]: http://tc.lihail.cn/adminjs.png
   [14]: http://tc.lihail.cn/admin123.png
-  [15]: http://adminair.zhangs.ink/adminAirDemo/index.html#/Login
+  [15]: http://r3kl6k.coding-pages.com/adminAirDemo/#/home
   [16]: https://github.com/rstacruz/nprogress#readme
   
